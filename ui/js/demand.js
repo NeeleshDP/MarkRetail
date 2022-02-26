@@ -7,7 +7,7 @@ $(document).ready(function () {
   function demandList() {
     // Call Web API to get a list of demands
     $.ajax({
-      url: 'http://a73e3537f79c1490e8982e58c5ebf424-bc22ad9319137302.elb.us-east-1.amazonaws.com/demand/getall',
+      url: 'a3386718a8dfe4e2b93507943376d39a-1617657726.us-east-2.elb.amazonaws.com',
       type: 'POST',
       dataType: 'json',
       success: function (demands) {
