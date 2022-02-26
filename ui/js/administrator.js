@@ -56,7 +56,7 @@ $(document).ready(function () {
     console.log(administrator)
     // Call Web API to add a new administrator
     $.ajax({
-      url: "http://a73e3537f79c1490e8982e58c5ebf424-bc22ad9319137302.elb.us-east-1.amazonaws.com/administrator/new",
+      url: "adb369145bce9446e96d26200a17fae1-1517586065.us-east-  2.elb.amazonaws.com/new",
       type: 'POST',
       contentType: "application/json;charset=utf-8",
       data:JSON.stringify(administrator),
