@@ -88,7 +88,7 @@ $(document).ready(function () {
   function productAdd(product) {
     // Call Web API to add a new product
     $.ajax({
-      url: "http://a73e3537f79c1490e8982e58c5ebf424-bc22ad9319137302.elb.us-east-1.amazonaws.com/product/new",
+      url: "a7387467f71e449549e0e8667879a9c0-1699906363.us-east-2.elb.amazonaws.com/new",
       type: 'POST',
       contentType: "application/json;charset=utf-8",
       data:JSON.stringify(product),
