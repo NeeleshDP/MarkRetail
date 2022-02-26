@@ -54,7 +54,7 @@ $(document).ready(function () {
   function demandAdd(demand) {
     // Call Web API to add a new demand
     $.ajax({
-      url: "http://a73e3537f79c1490e8982e58c5ebf424-bc22ad9319137302.elb.us-east-1.amazonaws.com/demand/new",
+      url: "a3386718a8dfe4e2b93507943376d39a-1617657726.us-east-2.elb.amazonaws.com/demand/new",
       type: 'POST',
       contentType: "application/json;charset=utf-8",
       data:JSON.stringify(demand),
